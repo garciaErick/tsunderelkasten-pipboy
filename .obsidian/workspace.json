@@ -1,0 +1,254 @@
+{
+  "main": {
+    "id": "404c60b1d9003778",
+    "type": "split",
+    "children": [
+      {
+        "id": "266504fc4405d212",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63227910256ff0d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tsunderelkasten/3.permanent/Mensaje secreto para Katy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mensaje secreto para Katy"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "43232745f489f892",
+    "type": "split",
+    "children": [
+      {
+        "id": "37f1ea4ea601a20a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b17fc09a88387a5f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cf79172fa49c2faa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c6f8c8ad2e040dc0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 425.49999618530273
+  },
+  "right": {
+    "id": "4b811d9ce67ca0a9",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b0dc6f62fff9953",
+        "type": "tabs",
+        "dimension": 40.48821548821549,
+        "children": [
+          {
+            "id": "4c93747aff87e53f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tsunderelkasten/3.permanent/Mensaje secreto para Katy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Mensaje secreto para Katy"
+            }
+          },
+          {
+            "id": "2375a1c6d28abd47",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tsunderelkasten/3.permanent/Mensaje secreto para Katy.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Mensaje secreto para Katy"
+            }
+          },
+          {
+            "id": "891482eedf637b6f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "82743f45af580f4c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "f61f6af2a4f956f2",
+        "type": "tabs",
+        "dimension": 59.51178451178451,
+        "children": [
+          {
+            "id": "5a8ecac1016a4e7e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tsunderelkasten/3.permanent/Mensaje secreto para Katy.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Mensaje secreto para Katy"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "command-palette:Open command palette": true,
+      "templater-obsidian:Templater": false,
+      "audio-recorder:Start/stop recording": false,
+      "media-extended:Open media": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-importer:Open Importer": true,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "63227910256ff0d0",
+  "lastOpenFiles": [
+    "tsunderelkasten/2.literature/📚 Literature - LEAN BEEF PATTY 8 WEEK PROGRAM.md",
+    "tsunderelkasten/2.literature/📚 Literature - 5 min low effort runnig prep (para cuando no quiero en la maniana).md",
+    "tsunderelkasten/2.literature/📚 Literature - Ankle-and-Foot-Mobility-Essentials.md",
+    "tsunderelkasten/2.literature/📚 Literature - Spot seasoning stainless steel wok.md",
+    "tsunderelkasten/2.literature/📚 Literature - Low Light Photos were HARD Until I Learned This!.md",
+    "tsunderelkasten/2.literature/📚 Literature - Handstand For Beginners.md",
+    "tsunderelkasten/2.literature/📚 Literature - Gymnastic Rings Workout for Beginners Best PUSH Day Exercises.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-23 Wednesday.md",
+    "tsunderelkasten/5.structured/📋 Projects - Calisthenics Skills.md",
+    "tsunderelkasten/5.structured/📋 Projects - Flexibilidad.md",
+    "tsunderelkasten/5.structured/📋 Projects - Japanese Learning.md",
+    "tsunderelkasten/5.structured/📋 Projects - Monogatari Series watch in JP subs.md",
+    "tsunderelkasten/5.structured/📋 Projects - Gymnastics Rings Training.md",
+    "tsunderelkasten/5.structured/📋 Projects - Obsidian Workflow.md",
+    "tsunderelkasten/5.structured/📋 Projects - Tidy House Cleaning 🫧🧹.md",
+    "tsunderelkasten/5.structured/🥅 Goals.md",
+    "tsunderelkasten/5.structured/🥅 Goals - Flexibility Goals 2025.md",
+    "templates/templater/2. Actions/🎱 Generic/➕ add/🖼️ Image from url.md",
+    "templates/templater/2. Actions/🎱 Generic/➕ add/Image from url.md",
+    "templates/templater/2. Actions/🎱 Generic/📭open/📂 Section from current file.md",
+    "templates/templater/2. Actions/🎱 Generic/➕ add/🔗Add link.md",
+    "templates/templater/2. Actions/🎱 Generic/➕ add/📝 Todo to current file.md",
+    "templates/templater/2. Actions/🎱 Generic/📭open",
+    "templates/templater/2. Actions/🎱 Generic/➕ add",
+    "templates/templater/2. Actions/🎱 Generic",
+    "templates/templater/1. Entities/🎱 Generic/📭open/📂 Section from current file.md",
+    "templates/templater/1. Entities/🎱 Generic/➕ add/🔗Add link.md",
+    "templates/templater/1. Entities/🎱 Generic/➕ add/📝 Todo to current file.md",
+    "templates/templater/1. Entities/🎱 Generic/📭open",
+    "templates/templater/1. Entities/🎱 Generic/➕ add",
+    "templates/templater/1. Entities/🎱 Generic",
+    "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addWorkoutEntityData.js",
+    "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addTVShowEntityData.js",
+    "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addShoppingListEntityData.js",
+    "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addReferenceListEntityData.js",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-22 Tuesday.md",
+    "media/pasted-image-20250711171117.png",
+    "fewaf.canvas",
+    "templates/templater/1. Actions/1. Generic/open/image.png",
+    "media/pasted-image-20250710124906.png",
+    "media/workout-dictionary/lyingLegCurl.png",
+    "media/aria_key_1101.png",
+    "media/cinepolis-dandadan-orden-759704.jpg",
+    "media/pasted-image-20250515051353.png",
+    "media/pasted-image-20250515051150.png",
+    "media/pasted-image-20250515051135.png",
+    "media/pasted-image-20250515051109.png"
+  ]
+}
