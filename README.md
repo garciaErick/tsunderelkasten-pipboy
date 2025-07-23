@@ -108,4 +108,5 @@ MIT (maximum freedom for wasteland survivors)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y21IIV7I)
 
-<iframe src="https://github.com/sponsors/garciaErick/button" title="Sponsor garciaErick" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+[:heart: Sponsor](https://github.com/sponsors/garciaErick)
+
