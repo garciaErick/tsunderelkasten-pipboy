@@ -1,0 +1,46 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "#ff964f",
+      "directory": "calendar/trips"
+    },
+    {
+      "type": "local",
+      "color": "#72c9e9",
+      "directory": "calendar/omnicalendar"
+    },
+    {
+      "type": "ical",
+      "color": "#f07070",
+      "url": "https://calendar.google.com/calendar/ical/en.usa%23holiday%40group.v.calendar.google.com/public/basic.ics"
+    },
+    {
+      "type": "ical",
+      "color": "#e5ed73",
+      "url": "https://calendar.google.com/calendar/ical/en.mexican%23holiday%40group.v.calendar.google.com/public/basic.ics"
+    },
+    {
+      "type": "ical",
+      "color": "#6b5be1",
+      "url": "https://calendar.google.com/calendar/ical/pfutdblf1gi8jmfsvroh76f6jg%40group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "type": "ical",
+      "color": "#f578f7",
+      "url": "https://calendar.google.com/calendar/ical/erickcubanoide%40gmail.com/private-72358a1213ae91e6496b8a12984e9748/basic.ics"
+    },
+    {
+      "type": "dailynote",
+      "color": "#a587ee",
+      "heading": "🤖 Schedule of the day"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": true
+}

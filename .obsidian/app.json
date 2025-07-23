@@ -1,0 +1,20 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "tsunderelkasten",
+  "autoPairMarkdown": false,
+  "vimMode": true,
+  "showLineNumber": true,
+  "attachmentFolderPath": "media",
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 72
+  },
+  "readableLineLength": false,
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": false
+}

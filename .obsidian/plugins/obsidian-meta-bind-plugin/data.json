@@ -1,0 +1,121 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "enableJs": true,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "-1 🚀",
+      "hidden": true,
+      "id": "stanley-decrement",
+      "style": "default",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "glassesOfWater",
+          "evaluate": true,
+          "value": "Math.max(x - 6, 0)"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "waterDone",
+          "evaluate": true,
+          "value": "getMetadata('glassesOfWater') >= 12 ? true : false"
+        }
+      ]
+    },
+    {
+      "label": "+1 🚀",
+      "hidden": true,
+      "id": "stanley-increment",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "glassesOfWater",
+          "evaluate": true,
+          "value": "Math.min(x + 6, 12)"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "waterDone",
+          "evaluate": true,
+          "value": "getMetadata('glassesOfWater') >= 12 ? true : false"
+        }
+      ]
+    },
+    {
+      "label": "+1 🫗",
+      "hidden": true,
+      "id": "glass-increment",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "glassesOfWater",
+          "evaluate": true,
+          "value": "Math.min(x + 1, 12)"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "waterDone",
+          "evaluate": true,
+          "value": "getMetadata('glassesOfWater') >= 12 ? true : false"
+        }
+      ]
+    },
+    {
+      "label": "-1 🫗",
+      "hidden": true,
+      "id": "glass-decrement",
+      "style": "default",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "glassesOfWater",
+          "evaluate": true,
+          "value": "Math.max(x - 1, 0)"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "waterDone",
+          "evaluate": true,
+          "value": "getMetadata('glassesOfWater') >= 12 ? true : false"
+        }
+      ]
+    },
+    {
+      "label": "Reset",
+      "hidden": true,
+      "id": "water-reset",
+      "style": "default",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "glassesOfWater",
+          "evaluate": true,
+          "value": "Number(0)"
+        },
+        {
+          "type": "updateMetadata",
+          "bindTarget": "waterDone",
+          "evaluate": true,
+          "value": "Boolean(false)"
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "cssTheme": "Tokyo Night",
+  "accentColor": "",
+  "baseFontSizeAction": true,
+  "theme": "obsidian",
+  "textFontFamily": "OperatorMono Nerd Font",
+  "monospaceFontFamily": "OperatorMono Nerd Font",
+  "enabledCssSnippets": [
+    "custom",
+    "digital-garden"
+  ],
+  "baseFontSize": 14
+}

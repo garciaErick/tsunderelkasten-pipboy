@@ -1,0 +1,66 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "templates/templater",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "templates/scripts",
+  "enable_folder_templates": false,
+  "folder_templates": [
+    {
+      "folder": "tsunderelkasten/1.fleeting/1.daily",
+      "template": "templates/templater/periodic-notes-extension/1. daily-note/Daily Note.md"
+    },
+    {
+      "folder": "tsunderelkasten/1.fleeting/2.weekly",
+      "template": "templates/templater/periodic-notes-extension/2. weekly-note/Weekly Note.md"
+    },
+    {
+      "folder": "tsunderelkasten/1.fleeting/3.monthly",
+      "template": "templates/templater/periodic-notes-extension/3. monthly-note/Monthly Note.md"
+    },
+    {
+      "folder": "tsunderelkasten/1.fleeting/4.yearly",
+      "template": "templates/templater/periodic-notes-extension/4. yearly-note/Yearly Note.md"
+    }
+  ],
+  "enable_file_templates": true,
+  "file_templates": [
+    {
+      "regex": "^tsunderelkasten/1\\.fleeting/1\\.daily/\\d{4}-\\d{2}-\\d{2}\\s\\w+\\sWorkout(\\.md)?$",
+      "template": "workout"
+    },
+    {
+      "regex": "^tsunderelkasten/1\\.fleeting/1\\.daily/\\d{4}-\\d{2}-\\d{2}\\s\\w+(\\.md)?$",
+      "template": "templates/templater/3. Views/plugins/periodic-notes-extension/1. daily-note/Daily Note.md"
+    },
+    {
+      "regex": "^tsunderelkasten/1\\.fleeting/2\\.weekly/\\d{4}-W\\d{2}(\\.md)?$",
+      "template": "templates/templater/3. Views/plugins/periodic-notes-extension/2. weekly-note/Weekly Note.md"
+    },
+    {
+      "regex": "^tsunderelkasten/1\\.fleeting/3\\.monthly/\\d{4}-\\d{2}(\\.md)?$",
+      "template": "templates/templater/3. Views/plugins/periodic-notes-extension/3. monthly-note/Monthly Note.md"
+    },
+    {
+      "regex": "^tsunderelkasten/1\\.fleeting/4\\.yearly/\\d{4}(\\.md)?$",
+      "template": "templates/templater/3. Views/plugins/periodic-notes-extension/4. yearly-note/Yearly Note.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}
