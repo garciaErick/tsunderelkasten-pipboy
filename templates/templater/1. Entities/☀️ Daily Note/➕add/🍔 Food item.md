@@ -1,0 +1,1 @@
+<%* await tp.user.quickFoodCapture(tp); %>
