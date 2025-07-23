@@ -1,0 +1,270 @@
+{
+  "main": {
+    "id": "7c097e7e06112d1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "09a703303149cb0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb164887803a1675",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tsunderelkasten/1.fleeting/1.daily/2025-07-17 Thursday.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-17 Thursday"
+            }
+          },
+          {
+            "id": "8730de7e61102782",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "4c2ea520d6294d9b",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "7df7b1f60284fc55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tsunderelkasten/1.fleeting/1.daily/2025-07-21 Monday.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-21 Monday"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0a5f5d29580d9f3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "de477d05a0b838a6",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "ea98b20386e7257c",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "tag:pull",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "dfeb869fe3f18a66",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "0a8399a5fb250c71",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "57d124f896243150",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0dc6724ca1624617",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "tsunderelkasten/4.reference/🍳 Recetas.md",
+            "collapseAll": true,
+            "extraContext": true,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "ca4f17be08057e3f",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "tsunderelkasten/1.fleeting/daily/2024-10-23 Wednesday.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "ed02fa58e868d799",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "tsunderelkasten/1.fleeting/daily/2024-10-23 Wednesday.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "5741bd85be3c3bdf",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      }
+    ],
+    "currentTab": 5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-importer:Open Importer": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "7df7b1f60284fc55",
+  "lastOpenFiles": [
+    "tsunderelkasten/2.literature/📚 Literature - Ankle-and-Foot-Mobility-Essentials.md",
+    "tsunderelkasten/2.literature/📚 Literature - 5 min low effort runnig prep (para cuando no quiero en la maniana).md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-21 Monday.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-23 Wednesday.md",
+    "tsunderelkasten/2.literature/📚 Literature - LEAN BEEF PATTY 8 WEEK PROGRAM.md",
+    "tsunderelkasten/2.literature/📚 Literature - Gymnastic Rings Workout for Beginners Best PUSH Day Exercises.md",
+    "calendar/omnicalendar/2025-07-23 Ploopy Adept delivery.md",
+    "tsunderelkasten/1.fleeting/2.weekly/2025-W30.md",
+    "tsunderelkasten/4.reference/Sleep Calculator.md",
+    "tsunderelkasten/1.fleeting/2.weekly/2025-W29.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-20 Sunday.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-18 Friday.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-18 Friday Workout.md",
+    "tsunderelkasten/4.reference/🏋🏿 Exercises - Dumbell Overhead shoulder press.md",
+    "tsunderelkasten/4.reference/🏋🏿 Exercises - 3-day Split Regime Exercise Guide.md",
+    "tsunderelkasten/2.literature/📚 Literature - Low Light Photos were HARD Until I Learned This!.md",
+    "rin.svg",
+    "tsunderelkasten/4.reference/📔 Tasks - Pending tasks listing.md",
+    "tsunderelkasten/5.structured/📋 Projects - Obsidian Workflow.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-17 Thursday.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-17 Thursday Workout.md",
+    "tsunderelkasten/4.reference/🎬 Movies - M3GAN 2.0.md",
+    "tsunderelkasten/4.reference/🎌 Anime - Takopi's Original Sin.md",
+    "tsunderelkasten/4.reference/🎌 Anime - x.md",
+    "tsunderelkasten/3.permanent/👤 People - Ana Chacon.md",
+    "tsunderelkasten/4.reference/Expense Tracker.md",
+    "tsunderelkasten/5.structured/📋 Projects - Chihuahua Jun 27.md",
+    "templates/scripts/src/utils/constants.js",
+    "templates/scripts/src/components/periodic-notes/updateWellnessMetadata.js",
+    "templates/scripts/src/components/periodic-notes/quickFoodCapture.js",
+    "templates/scripts/src/components/periodic-notes/morningRoutine.js",
+    "templates/scripts/src/components/periodic-notes/addDailyBounties.js",
+    "templates/scripts/src/components/periodic-notes/addDailyHeadspace.js",
+    "templates/templater/2. Actions/Imgur",
+    "templates/templater/2. Entities/🎱 Generic/open",
+    "templates/templater/2. Entities/🎱 Generic/add",
+    "templates/templater/2. Entities/🎱 Generic",
+    "fewaf.canvas",
+    "media/pasted-image-20250324145339.png",
+    "media/latam-airlines-cjs-lim.png",
+    "media/workout-dictionary/tBarRow.png",
+    "media/workout-dictionary/dumbbellShrug.png",
+    "media/workout-dictionary/standingCalfRaise.png",
+    "media/pasted-image-20250424130818.png",
+    "media/workout-dictionary/straightArmPulldown.png",
+    "media/workout-dictionary/rearDeltFlyes.png",
+    "media/workout-dictionary/cableLowRow.png"
+  ]
+}
