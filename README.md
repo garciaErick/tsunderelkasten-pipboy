@@ -105,3 +105,4 @@ MIT (maximum freedom for wasteland survivors)
 ## ☕ Support
 
 **Buy me a Nuka Cola Quantum ⚛️**
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy me a Nuka Cola Quantum', '#72a4f2', 'Y8Y21IIV7I');kofiwidget2.draw();</script> 
