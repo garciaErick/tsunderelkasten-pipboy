@@ -5,7 +5,6 @@ const openFile = tp.user.openFile;
 
 try {
     const entityType = await createSuggesterFromAllEntityTypes(tp);
-    console.log("Selected entity type:", entityType);
     const selectedEntity = await createSuggesterFromEntityType(tp, entityType, {
         prompt: 'Select entity to open:'
     });

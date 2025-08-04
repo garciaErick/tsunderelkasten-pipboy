@@ -1,5 +1,8 @@
 ## 🎯 Overview
 *Write a quick description*
+`VIEW[{description}][text(class(description))]`
+
+<%tp.file.include("[[3. Generic - Current Page TOC]]")%>
 
 ## 👥 Party Members
 *Who will join you in this adventure*

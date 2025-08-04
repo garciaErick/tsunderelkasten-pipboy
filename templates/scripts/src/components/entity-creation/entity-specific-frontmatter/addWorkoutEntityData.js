@@ -29,7 +29,7 @@ async function addDailyWorkoutEntityData(tp, entityData) {
                     const exercise = {
                         name: frontmatter.exerciseName,
                         shortName: frontmatter.shortName,
-                        file: fileData.file,
+                        file: fileData.file.path,
                         description: frontmatter.description || "",
                         musclesWorked: frontmatter.musclesWorked || [],
                         imagePath: frontmatter.imagePath || ""
@@ -113,6 +113,8 @@ async function addDailyWorkoutEntityData(tp, entityData) {
     
     // Add workout-specific tags
     enhancedEntityData.tags.push(`daily-workout/${workoutType}`);
+
+    await generateWorkoutContent(tp, enhancedEntityData);
     
     return enhancedEntityData;
 }
@@ -127,7 +129,7 @@ function createExerciseTemplate(exercise) {
     
     return `
 ### ${exercise.name}
-* [[${exercise.file.path}|${exercise.file.basename}]]
+* [[${exercise.file}|${exercise.name}]]
 * ${exercise.description}
 * **Muscles Worked:** ${exercise.musclesWorked.join(',')}
 ![[${imagePathClean}|250]]
@@ -189,10 +191,10 @@ If you need inspiration, you can follow my [[🏋🏿 Exercises - 3-day Split Re
     return contentBody;
 }
 
-module.exports = function() {
+module.exports = function(){
     return {
         addDailyWorkoutEntityData,
         generateWorkoutContent,
         createExerciseTemplate
-    };
+    }
 };

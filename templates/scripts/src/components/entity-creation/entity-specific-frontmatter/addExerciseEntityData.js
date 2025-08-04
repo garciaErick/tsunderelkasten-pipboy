@@ -1,7 +1,4 @@
-/**
- * Main function to add exercise-specific data
- */
-async function addExerciseEntityData(tp, entityData) {
+async function addExerciseEntityData(tp, entityData, config) {
     entityData.exerciseName = entityData.entityName; // Keep both for compatibility
     entityData.description = await tp.system.prompt("Exercise Description:", "", false);
     
@@ -28,8 +25,10 @@ async function addExerciseEntityData(tp, entityData) {
         entityData.tags.push(`muscle/${muscle.replace(/\s+/g, '-')}`);
     });
     
+    entityData.tags.push(...config.baseTags);
     return entityData;
 }
+
 
 /**
  * Helper function to handle muscle selection with multi-select logic

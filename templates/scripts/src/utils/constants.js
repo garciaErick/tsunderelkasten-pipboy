@@ -34,6 +34,7 @@ const ENTITY_TYPES = [
   "reference-list",
   "reference-note",
   "shopping-list",
+  "storage-location", 
   "table-of-contents",
   "tv-show"
 ];
@@ -116,11 +117,18 @@ const ENTITY_CONFIGS = {
   "daily-workout": {
     prefix: "",
     parentPath: DAILY_NOTE_PATH,
+    ignoreNamePrompt: true, // Since you're auto-generating the name
     entityNameProcessor: (entityName, tp) => `${tp.date.now("YYYY-MM-DD dddd")} Workout`,
     filenameGenerator: (config, entityData, tp) => `${tp.date.now("YYYY-MM-DD dddd")} Workout`,
-    processor: (tp, entityData, config) => tp.user.addDailyWorkoutEntityData(tp, entityData, config),
-    templateName: "Daily Workout Entity View",
-    baseTags: []
+    processor: async (tp, entityData, config) => {
+      const { addDailyWorkoutEntityData } = tp.user.addWorkoutEntityData();
+      return await addDailyWorkoutEntityData(tp, entityData, config);
+    },
+    templateGenerator: async (tp, entityData) => {
+      const { generateWorkoutContent } = tp.user.addWorkoutEntityData();
+      return await generateWorkoutContent(tp, entityData);
+    },
+    baseTags: ["workout", "daily-workout"]
   },
 
   // === FLEETING NOTES ===
@@ -219,6 +227,7 @@ const ENTITY_CONFIGS = {
     prefix: "📚 Table of Contents",
     parent: "[[📚 Table of Contents]]",
     parentPath: REFERENCE_NOTE_PATH,
+    processor: (tp, entityData, config) => tp.user.addTocEntityData(tp, entityData, config),
     templateName: "Table of Contents Entity View",
     baseTags: ["toc", "reference-note"]
   },
@@ -285,7 +294,17 @@ const ENTITY_CONFIGS = {
     processor: (tp, entityData, config) => tp.user.addMusicAlbumEntityData(tp, entityData, config),
     templateName: "Music Album Entity View",
     baseTags: ["media", "music", "album"]
-  }
+  },
+  "storage-location": {
+    prefix: "📦 Storage",
+    parent: "[[📦 Storage Locations]]",
+    parentPath: STRUCTURED_NOTE_PATH,
+    processor: (tp, entityData, config) => tp.user.addStorageLocationEntityData(tp, entityData, config),
+    ignoreNamePrompt: true,
+    // TODO add the room name properly
+    templateName: "Storage Location Entity View",
+    baseTags: ["inventory", "storage-location"]
+  },
 };
 
 /**
@@ -295,11 +314,11 @@ const ENTITY_CONFIGS = {
  */
 function sanitizeStringForVault(stringToSanitize) {
     return stringToSanitize
-        .replace(/[<>:"/\\|?*]/g, '') // Remove Windows invalid characters
+        .replace(/[<>:"/\\|?*()]/g, '') // Remove Windows invalid characters + parentheses
         .replace(/[|]/g, '-') // Replace pipes with dashes
         .replace(/\s+/g, ' ') // Replace multiple spaces with single space
         .trim(); // Remove leading/trailing whitespace
-}
+} 
 
 // Export as function for Templater compatibility
 module.exports = function() {

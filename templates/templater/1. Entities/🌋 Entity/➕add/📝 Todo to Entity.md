@@ -13,7 +13,6 @@ try {
         return;
     }
     
-    console.log("Selected entity type:", entityType);
     
     // Step 2: Select specific entity of that type
     const selectedEntity = await createSuggesterFromEntityType(tp, entityType, {

@@ -33,7 +33,8 @@ async function createEntity(tp) {
             `${config.parentPath}/${fileName}.md`;
         
         // === FILE CREATION ===
-        const result = await createEntityFile(tp, filePath, entityData, templateContent);
+        const result = await createEntityFile(tp, filePath, entityData, templateContent, config);
+
         
         if (result.success) {
             new Notice(`Created ${baseData.entityType}: ${entityData.entityName}`);
@@ -57,14 +58,15 @@ async function createBaseEntity(tp, ENTITY_TYPES) {
     const { ENTITY_CONFIGS, sanitizeStringForVault } = tp.user.constants();
     const config = ENTITY_CONFIGS[data.entityType];
     
-    // Get and sanitize entity name
-    let entityName = await tp.system.prompt(`Enter ${data.entityType} name:`, null, true);
-    if (!entityName) {
-        new Notice("Entity name is required");
-        return;
+    if(!config.ignoreNamePrompt){
+        // Get and sanitize entity name
+        let entityName = await tp.system.prompt(`Enter ${data.entityType} name:`, null, true);
+        if (!entityName) {
+            new Notice("Entity name is required");
+            return;
+        }
+        data.entityName = sanitizeStringForVault(entityName);
     }
-    
-    data.entityName = sanitizeStringForVault(entityName);
     
     // Process entity name if config has a processor
     if (config?.entityNameProcessor) {
@@ -92,7 +94,7 @@ async function createBaseEntity(tp, ENTITY_TYPES) {
     return data;
 }
 
-async function createEntityFile(tp, filePath, frontmatterData, templateName = null) {
+async function createEntityFile(tp, filePath, frontmatterData, templateName = null, config = null) {
     try {
         // Handle existing file
         const existingFile = app.vault.getAbstractFileByPath(filePath);
@@ -113,12 +115,20 @@ async function createEntityFile(tp, filePath, frontmatterData, templateName = nu
         await tp.user.updateFrontmatter(tp, newFile, frontmatterData);
         
         // Add template content
-        if (templateName) {
+        let contentToAdd = "";
+        
+        if (config && config.templateGenerator) {
+            contentToAdd = await config.templateGenerator(tp, frontmatterData);
+        } else if (templateName) {
             const templateResult = await tp.user.getFileByTitle(tp, templateName);
             if (templateResult.success) {
-                const currentContent = await app.vault.read(newFile);
-                await app.vault.modify(newFile, currentContent + '\n' + templateResult.content);
+                contentToAdd = templateResult.content;
             }
+        }
+        
+        if (contentToAdd) {
+            const currentContent = await app.vault.read(newFile);
+            await app.vault.modify(newFile, currentContent + '\n' + contentToAdd);
         }
         
         // Open file
