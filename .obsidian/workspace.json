@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "266504fc4405d212",
+        "id": "94291439069124d9",
         "type": "tabs",
         "children": [
           {
-            "id": "63227910256ff0d0",
+            "id": "ad6615216ca90d4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tsunderelkasten/3.permanent/Mensaje secreto para Katy.md",
+                "file": "tsunderelkasten/5.structured/🧭 Adventures - Viaje a CDMX.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mensaje secreto para Katy"
+              "title": "🧭 Adventures - Viaje a CDMX"
+            }
+          },
+          {
+            "id": "63e0f087f5f861f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tsunderelkasten/5.structured/📋 Projects - Obsidian Workflow.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "📋 Projects - Obsidian Workflow"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,12 +88,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "developer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -84,7 +109,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,12 +126,34 @@
         "dimension": 40.48821548821549,
         "children": [
           {
+            "id": "5a8ecac1016a4e7e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tsunderelkasten/5.structured/📋 Projects - Obsidian Workflow.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 📋 Projects - Obsidian Workflow"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f61f6af2a4f956f2",
+        "type": "tabs",
+        "dimension": 59.511784511784505,
+        "children": [
+          {
             "id": "4c93747aff87e53f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tsunderelkasten/3.permanent/Mensaje secreto para Katy.md",
+                "file": "tsunderelkasten/1.fleeting/1.daily/2025-07-30 Wednesday Workout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +163,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Mensaje secreto para Katy"
+              "title": "Backlinks for 2025-07-30 Wednesday Workout"
             }
           },
           {
@@ -124,12 +172,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tsunderelkasten/3.permanent/Mensaje secreto para Katy.md",
+                "file": "tsunderelkasten/1.fleeting/1.daily/2025-07-30 Wednesday Workout.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Mensaje secreto para Katy"
+              "title": "Outgoing links from 2025-07-30 Wednesday Workout"
             }
           },
           {
@@ -158,36 +206,16 @@
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "f61f6af2a4f956f2",
-        "type": "tabs",
-        "dimension": 59.51178451178451,
-        "children": [
-          {
-            "id": "5a8ecac1016a4e7e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "tsunderelkasten/3.permanent/Mensaje secreto para Katy.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Mensaje secreto para Katy"
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "command-palette:Open command palette": true,
       "templater-obsidian:Templater": false,
@@ -197,48 +225,47 @@
       "obsidian-importer:Open Importer": true,
       "digitalgarden:Digital Garden Publication Center": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "63227910256ff0d0",
+  "active": "cf79172fa49c2faa",
   "lastOpenFiles": [
-    "tsunderelkasten/2.literature/📚 Literature - LEAN BEEF PATTY 8 WEEK PROGRAM.md",
-    "tsunderelkasten/2.literature/📚 Literature - 5 min low effort runnig prep (para cuando no quiero en la maniana).md",
-    "tsunderelkasten/2.literature/📚 Literature - Ankle-and-Foot-Mobility-Essentials.md",
-    "tsunderelkasten/2.literature/📚 Literature - Spot seasoning stainless steel wok.md",
-    "tsunderelkasten/2.literature/📚 Literature - Low Light Photos were HARD Until I Learned This!.md",
-    "tsunderelkasten/2.literature/📚 Literature - Handstand For Beginners.md",
-    "tsunderelkasten/2.literature/📚 Literature - Gymnastic Rings Workout for Beginners Best PUSH Day Exercises.md",
-    "tsunderelkasten/1.fleeting/1.daily/2025-07-23 Wednesday.md",
-    "tsunderelkasten/5.structured/📋 Projects - Calisthenics Skills.md",
-    "tsunderelkasten/5.structured/📋 Projects - Flexibilidad.md",
-    "tsunderelkasten/5.structured/📋 Projects - Japanese Learning.md",
-    "tsunderelkasten/5.structured/📋 Projects - Monogatari Series watch in JP subs.md",
-    "tsunderelkasten/5.structured/📋 Projects - Gymnastics Rings Training.md",
+    "templates/scripts/src/utils/constants.js",
     "tsunderelkasten/5.structured/📋 Projects - Obsidian Workflow.md",
-    "tsunderelkasten/5.structured/📋 Projects - Tidy House Cleaning 🫧🧹.md",
-    "tsunderelkasten/5.structured/🥅 Goals.md",
-    "tsunderelkasten/5.structured/🥅 Goals - Flexibility Goals 2025.md",
-    "templates/templater/2. Actions/🎱 Generic/➕ add/🖼️ Image from url.md",
-    "templates/templater/2. Actions/🎱 Generic/➕ add/Image from url.md",
-    "templates/templater/2. Actions/🎱 Generic/📭open/📂 Section from current file.md",
-    "templates/templater/2. Actions/🎱 Generic/➕ add/🔗Add link.md",
-    "templates/templater/2. Actions/🎱 Generic/➕ add/📝 Todo to current file.md",
-    "templates/templater/2. Actions/🎱 Generic/📭open",
-    "templates/templater/2. Actions/🎱 Generic/➕ add",
-    "templates/templater/2. Actions/🎱 Generic",
-    "templates/templater/1. Entities/🎱 Generic/📭open/📂 Section from current file.md",
-    "templates/templater/1. Entities/🎱 Generic/➕ add/🔗Add link.md",
-    "templates/templater/1. Entities/🎱 Generic/➕ add/📝 Todo to current file.md",
-    "templates/templater/1. Entities/🎱 Generic/📭open",
-    "templates/templater/1. Entities/🎱 Generic/➕ add",
-    "templates/templater/1. Entities/🎱 Generic",
+    "tsunderelkasten/1.fleeting/1.daily/2025-08-04 Monday.md",
+    "tsunderelkasten/4.reference/🌯 Juarez.md",
+    "tsunderelkasten/5.structured/📦 Inventory - Clothes.md",
+    "tsunderelkasten/4.reference/📋 Reference List - Tsunderelkasten feature list.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-08-04 Monday Workout.md",
+    "templates/scripts/src/components/entity-creation/createEntity.js",
     "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addWorkoutEntityData.js",
+    "templates/scripts/src/components/entity-creation/getEntitiesByType.js",
+    "tsunderelkasten/5.structured/🧭 Adventures - Viaje a CDMX.md",
+    "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addDailyWorkoutEntityData.js",
+    "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addExerciseEntityData.js",
+    "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addStorageLocationEntityData.js",
+    "tsunderelkasten/5.structured/📦 Storage - Pito.md",
+    "tsunderelkasten/4.reference/📖 Reference - Clases de Gym Con Rip Grande.md",
+    "tsunderelkasten/4.reference/📚 Table of Contents - pwaoeihjf.md",
+    "templates/templater/3. Views/Adventure Entity View.md",
+    "templates/templater/3. Views/Table of Contents Entity View.md",
+    "templates/templater/3. Views/Reference List Entity View.md",
+    "templates/templater/3. Views/Project Entity View.md",
+    "templates/templater/3. Views/Person Entity View.md",
+    "templates/templater/3. Views/Literature Note Entity View.md",
+    "templates/templater/3. Views/Fleeting Note Entity View.md",
+    "templates/templater/3. Views/Fleeting List Entity View.md",
+    "templates/templater/3. Views/Expense Tracker Entity View.md",
+    "templates/templater/3. Views/plugins/periodic-notes-extension/3. Generic - Current Page TOC.md",
+    "tsunderelkasten/4.reference/📖 Reference - DanSA (Danzas y Sabores del Peru) Menu de degustacion.md",
+    "tsunderelkasten/5.structured/📋 Projects - Calisthenics Skills.md",
+    "tsunderelkasten/4.reference/📚 Table of Contents - waoefha.md",
+    "tsunderelkasten/2.literature/📚 Literature - 5 min low effort runnig prep - para cuando no quiero en la maniana.md",
+    "tsunderelkasten/2.literature/📚 Literature - Handstand For Beginners.md",
     "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addTVShowEntityData.js",
-    "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addShoppingListEntityData.js",
-    "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addReferenceListEntityData.js",
-    "tsunderelkasten/1.fleeting/1.daily/2025-07-22 Tuesday.md",
+    "templates/scripts/src/components/entity-creation/entity-specific-frontmatter/addTocEntityData.js",
+    "templates/scripts/src/utils/frontmatter/parseFrontmatter.js",
     "media/pasted-image-20250711171117.png",
     "fewaf.canvas",
     "templates/templater/1. Actions/1. Generic/open/image.png",

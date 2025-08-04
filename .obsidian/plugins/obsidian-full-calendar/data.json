@@ -2,11 +2,6 @@
   "calendarSources": [
     {
       "type": "local",
-      "color": "#ff964f",
-      "directory": "calendar/trips"
-    },
-    {
-      "type": "local",
       "color": "#72c9e9",
       "directory": "calendar/omnicalendar"
     },
@@ -34,6 +29,11 @@
       "type": "dailynote",
       "color": "#a587ee",
       "heading": "🤖 Schedule of the day"
+    },
+    {
+      "type": "local",
+      "color": "#ffad61",
+      "directory": "calendar/trips"
     }
   ],
   "defaultCalendar": 0,

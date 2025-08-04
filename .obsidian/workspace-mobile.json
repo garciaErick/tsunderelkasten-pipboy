@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tsunderelkasten/1.fleeting/1.daily/2025-07-21 Monday.md",
+                "file": "tsunderelkasten/1.fleeting/1.daily/2025-08-02 Saturday.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -72,7 +72,41 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-07-21 Monday"
+              "title": "2025-08-02 Saturday"
+            }
+          },
+          {
+            "id": "72f7888999919790",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "85c574b4d6815b21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tsunderelkasten/1.fleeting/1.daily/2025-07-31 Thursday.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-07-31 Thursday"
             }
           }
         ],
@@ -205,47 +239,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "digitalgarden:Digital Garden Publication Center": false,
-      "omnisearch:Omnisearch": false,
       "obsidian-importer:Open Importer": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "7df7b1f60284fc55",
   "lastOpenFiles": [
-    "tsunderelkasten/2.literature/📚 Literature - Ankle-and-Foot-Mobility-Essentials.md",
     "tsunderelkasten/2.literature/📚 Literature - 5 min low effort runnig prep (para cuando no quiero en la maniana).md",
-    "tsunderelkasten/1.fleeting/1.daily/2025-07-21 Monday.md",
-    "tsunderelkasten/1.fleeting/1.daily/2025-07-23 Wednesday.md",
-    "tsunderelkasten/2.literature/📚 Literature - LEAN BEEF PATTY 8 WEEK PROGRAM.md",
-    "tsunderelkasten/2.literature/📚 Literature - Gymnastic Rings Workout for Beginners Best PUSH Day Exercises.md",
-    "calendar/omnicalendar/2025-07-23 Ploopy Adept delivery.md",
-    "tsunderelkasten/1.fleeting/2.weekly/2025-W30.md",
-    "tsunderelkasten/4.reference/Sleep Calculator.md",
-    "tsunderelkasten/1.fleeting/2.weekly/2025-W29.md",
-    "tsunderelkasten/1.fleeting/1.daily/2025-07-20 Sunday.md",
-    "tsunderelkasten/1.fleeting/1.daily/2025-07-18 Friday.md",
-    "tsunderelkasten/1.fleeting/1.daily/2025-07-18 Friday Workout.md",
-    "tsunderelkasten/4.reference/🏋🏿 Exercises - Dumbell Overhead shoulder press.md",
-    "tsunderelkasten/4.reference/🏋🏿 Exercises - 3-day Split Regime Exercise Guide.md",
-    "tsunderelkasten/2.literature/📚 Literature - Low Light Photos were HARD Until I Learned This!.md",
-    "rin.svg",
-    "tsunderelkasten/4.reference/📔 Tasks - Pending tasks listing.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-08-02 Saturday.md",
+    "tsunderelkasten/5.structured/🧭 Adventures - Viaje a CDMX.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-31 Thursday.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-31 Thursday Workout.md",
+    "tsunderelkasten/4.reference/🏋🏿 Exercises - Bench Press.md",
+    "tsunderelkasten/2.literature/📚 Literature - Handstand For Beginners.md",
+    "tsunderelkasten/2.literature/📚 Literature - Ankle-and-Foot-Mobility-Essentials.md",
+    "tsunderelkasten/2.literature/📚 Literature - Vaselina en los dedos para tocar guitarra.md",
+    "tsunderelkasten/2.literature/📚 Literature - The OFFICIAL Scope Tierlist for Year 10 of Siege.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-30 Wednesday Workout.md",
+    "tsunderelkasten/4.reference/🔒 Personal - Account Backup Codes.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-29 Tuesday.md",
+    "tsunderelkasten/4.reference/🏋🏿 Exercises - Cable Low Row.md",
+    "tsunderelkasten/4.reference/🏋🏿 Exercises - Chin-Up Grip Cable Pulldown.md",
+    "tsunderelkasten/4.reference/🏋🏿 Exercises - Lat Pulldown.md",
     "tsunderelkasten/5.structured/📋 Projects - Obsidian Workflow.md",
-    "tsunderelkasten/1.fleeting/1.daily/2025-07-17 Thursday.md",
-    "tsunderelkasten/1.fleeting/1.daily/2025-07-17 Thursday Workout.md",
-    "tsunderelkasten/4.reference/🎬 Movies - M3GAN 2.0.md",
-    "tsunderelkasten/4.reference/🎌 Anime - Takopi's Original Sin.md",
-    "tsunderelkasten/4.reference/🎌 Anime - x.md",
-    "tsunderelkasten/3.permanent/👤 People - Ana Chacon.md",
-    "tsunderelkasten/4.reference/Expense Tracker.md",
-    "tsunderelkasten/5.structured/📋 Projects - Chihuahua Jun 27.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-27 Sunday.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-26 Saturday.md",
+    "tsunderelkasten/2.literature/📚 Literature - Juárez Puentes Fronterizos.md",
+    "tsunderelkasten/4.reference/📖 Reference - Juárez Puentes Fronterizos.md",
+    "tsunderelkasten/4.reference/📖 Reference - Clases de Gym Con Rip Grande.md",
+    "tsunderelkasten/5.structured/🛒 Shopping List - Mandado.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-25 Friday Workout.md",
+    "tsunderelkasten/5.structured/📋 Projects - Personal Article Writing.md",
+    "tsunderelkasten/1.fleeting/1.daily/2025-07-25 Friday.md",
+    "rin.svg",
     "templates/scripts/src/utils/constants.js",
     "templates/scripts/src/components/periodic-notes/updateWellnessMetadata.js",
     "templates/scripts/src/components/periodic-notes/quickFoodCapture.js",

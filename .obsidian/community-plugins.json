@@ -5,7 +5,6 @@
   "templater-obsidian",
   "nldates-obsidian",
   "tag-wrangler",
-  "omnisearch",
   "obsidian-mind-map",
   "obsidian-linter",
   "editing-toolbar",
@@ -24,8 +23,8 @@
   "quickadd",
   "obsidian-excalidraw-plugin",
   "obsidian-vimrc-support",
-  "table-editor-obsidian",
   "new-tab-default-page",
   "ytranscript",
-  "digitalgarden"
+  "digitalgarden",
+  "omnisearch"
 ]
